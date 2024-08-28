@@ -4,7 +4,7 @@ services:
     build: ./
     environment:
       OTEL_SERVICE_NAME: "agent-example-app"
-      OTEL_EXPORTER_OTLP_ENDPOINT: "http://collector:4318"
+      OTEL_EXPORTER_OTLP_ENDPOINT: "http://192.168.25.103:32209"
       # Logs are disabled by default
       OTEL_LOGS_EXPORTER: "otlp"
       # Optional specify file configuration instead of using environment variable scheme
